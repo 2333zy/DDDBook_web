@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import ElementButton from "@/components/ElementButton.vue";
 </script>
 
 <template>
-    <div class="wrapper">
-      <HelloWorld msg="123 did it!" />
-    </div>
+  <div>
+    <element-button />
+  </div>
 </template>
 
 <style scoped>
