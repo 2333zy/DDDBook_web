@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/book': {
-        target: 'http://127.0.0.1:8000', // 后端地址
+        target: 'http://172.24.173.90:8000', // 后端地址
         changeOrigin: true,
       },
     },

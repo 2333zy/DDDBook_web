@@ -5,7 +5,7 @@ FROM nginx:latest
 LABEL maintainer="your-email@example.com"
 
 # 将本地的静态文件复制到容器中的 /usr/share/nginx/html 目录
-COPY ./html /usr/share/nginx/html
+COPY ./dist /usr/share/nginx/html
 
 # 将本地的 Nginx 配置文件复制到容器中，替换默认配置
 COPY ./nginx.conf /etc/nginx/nginx.conf
